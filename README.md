@@ -3,4 +3,4 @@
  
  You can run it with your own device, but I suggest deploying it to fly.io
  
- By deploying, others can use the bot whenever they want (even you close your device)
+ By deploying, others can use the bot whenever they want
