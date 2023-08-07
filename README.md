@@ -22,7 +22,7 @@ initial_channels則是你想讓機器人在哪裡運作(機器人必須要有那
 要注意的是fly.toml和Procfile這兩個檔案，如果你在fly launch的時候有覆寫到  
 請把它們改回我github給的那樣，然後fly deploy機器人就上線了
 
-5.如果怕斷線，可以用 https://uptimerobot.com，設一個Monitor到fly  
+5.如果怕斷線，可以用 https://uptimerobot.com ，設一個Monitor到fly  
 Monitor設定的網址→https://XXX.fly.dev (你的app網址)  
 簡單來說就是它會每隔一段時間去ping你的fly，提升穩定性(不用也可)
 
