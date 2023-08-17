@@ -13,8 +13,7 @@ primary_region = "sin" # This is server location
 [http_service]
   internal_port = 8080
   force_https = true
-  auto_stop_machines = false
+  auto_stop_machines = true
   auto_start_machines = true
-  min_machines_running = 1
-  max_machines_running = 1 # after deploying, you can use command "fly scale" to set machine number
+  min_machines_running = 1 # after deploying, you can use command "fly scale" to set machine number
   processes = ["app"]
